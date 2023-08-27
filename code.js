@@ -1,5 +1,5 @@
 /**
- * Delete the rows and columns outside of the DataRange()
+ * Delete the empty rows and columns outside of the getDataRange()
  */
 function deleteExternalEmptyRowsNColumns() {
   // get sheets and data
@@ -27,7 +27,7 @@ function deleteExternalEmptyRowsNColumns() {
 }
 
 /**
- * Deletes the empty rows and columns inside of DataRange()
+ * Deletes the empty rows and columns inside of getDataRange()
  */
 function deleteInternalEmptyRowsNColumns() {
   // get sheets and data
@@ -71,4 +71,7 @@ function deleteInternalEmptyRowsNColumns() {
   ss.getRange(1, 1, newLastRow, newLastCol).setValues(newData);
 
 
+  // now delete empty rows and columns 
+  deleteExternalEmptyRowsNColumns();
+  
 }
