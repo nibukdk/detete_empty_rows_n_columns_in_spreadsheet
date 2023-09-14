@@ -3,7 +3,7 @@
 This is a source code for tutorial on how to delete blan rows and columns in a spreadsheet using Google Apps Script. You can read the blog at freecodecamp from [here](https://www.freecodecamp.org/news/how-to-remove-empty-rows-and-columns-in-google-sheets/).
 
 There's also a youtube tutorial.
-[![Watch the video](https://youtu.be/Eiqa5ST9DYM)
+[![Watch the video](https://www.freecodecamp.org/news/content/images/size/w2000/2023/08/delete-empty-rows-and-columns-in-google-sheets.png)](https://youtu.be/Eiqa5ST9DYM)
 
 ## What is convered in this code and tutorial?
 
